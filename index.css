@@ -1,0 +1,120 @@
+body{
+    background-color: #D6EAF8;
+}
+
+.playerSelection input {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+
+}
+.computerSelection img{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+
+.player {
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+    border-radius: 20%;
+}
+.computer {
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+    border-radius: 20%;
+}
+h1{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.intro{
+    margin-top: 7%;
+    text-align: center;
+    font-size: 45px;
+}
+
+.selections{
+    display: flex;
+    justify-content: center;
+
+}
+
+.computerSelection .playerSelection{
+    display: flex;
+    margin: 50px;
+}
+
+.computerSelection {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+    margin: 40px;
+}
+
+.playerSelection {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+    margin: 40px;
+}
+
+
+.selectedPlay{
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.player {
+    margin-right: 70px;
+}
+.computer{
+    margin-left: 70px;
+}
+
+#resultMessage{
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+}
+
+input:hover {
+    background-color: yellow;
+  }
+
+#playerChoiceImg {
+    height: 100%;
+    width: 100%;
+}
+#computerChoiceImg{
+    height: 100%;
+    width: 100%;
+}
+
+#round {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 30px;
+    display: flex;
+}
+.score {
+    display: flex;
+    justify-content: space-around;
+}
+#resetButton {
+    display: flex;
+    justify-content: center;
+      background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+

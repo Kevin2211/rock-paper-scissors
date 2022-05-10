@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,300&family=Poppins:ital,wght@0,300;0,500;0,700;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="intro">Rock Paper Scissors</h1>
+    <div class="selections">
+        <div class="playerSelection">
+            <h3 id="playerScore">Player: </h3>
+            <input type="image" value="rock" id="rockButton" src="../rock.png" />
+            <input type="image" value="paper" id="paperButton" src="../paper.png" />
+            <input type="image" value="scissors" id="scissorsButton" src="../scissors.png" />
+        </div>
+        <div class="computerSelection">
+            <h3 id="computerScore">Computer: </h3>
+            <img src="../rock.png" alt="rock">
+            <img src="../paper.png" alt="paper">
+            <img src="../scissors.png" alt="scissors">
+        </div>
+    </div>
+
+    <div class="selectedPlay">
+
+        <div class="player" id="playerChoice">
+            
+            <img src="../question.png" alt="rock" id="playerChoiceImg">
+        </div>
+
+        <div class="computer" id="computerChoice">
+            <img src="../question.png" alt="rock" id="computerChoiceImg">
+        </div>
+
+  
+    </div>
+
+    <div class="result">
+        <h1 id="resultMessage"></h1>
+    </div>
+
+    <div class="score">
+
+        <h3 id="round">Round: </h3>
+        <button id="resetButton"> Reset </button>
+    </div>
+
+    
+
+    <script src="game.js"></script>
+</body>
+</html>
